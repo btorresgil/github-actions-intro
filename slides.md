@@ -214,3 +214,16 @@ jobs:
 # ⚙️🛠
 
 **Let's try it out!**
+
+---
+
+## Examples
+
+- Node, Docker, Semantic-release  
+  [github.com/btorresgil/actions-example-node](https://github.com/btorresgil/actions-example-node)
+
+- Python, Poetry, Flake8, Pytest, Bandit, MyPy  
+  [github.com/btorresgil/actions-example-python](https://github.com/btorresgil/actions-example-python)
+
+- This presentation  
+  [github.com/btorresgil/github-actions-intro](https://github.com/btorresgil/github-actions-intro)

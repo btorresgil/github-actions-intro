@@ -43,6 +43,17 @@ jobs:
       - run: pytest
 ```
 
+Actions used: <a href="https://github.com/actions/checkout" target="_blank">actions/checkout@v2</a> -
+<a href="https://github.com/actions/setup-python" target="_blank">actions/setup-python@2</a>
+
+<!-- .element style="font-size: 40%;" -->
+
+---
+
+## Actions Marketplace
+
+<img data-src="/images/actions-marketplace-terraform.png" />
+
 ---
 
 ## Scope
@@ -71,12 +82,6 @@ jobs:
       - run: pip install flake8
       - run: flake8
 ```
-
----
-
-## Actions Marketplace
-
-<img data-src="/images/actions-marketplace-terraform.png" />
 
 ---
 

@@ -1,19 +1,29 @@
 {
   "name": "github-actions-intro",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An introduction to GitHub Actions",
+  "browser": "index.html",
+  "homepage": "https://btorresgil.github.io/github-actions-intro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btorresgil/github-actions-intro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/btorresgil/github-actions-intro/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.sh",
     "start": "browser-sync start -s -f . --no-notify --port 8080"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brian Torres-Gil <brian@ixi.us> (https://github.com/btorresgil)",
   "license": "ISC",
   "dependencies": {
     "reveal.js": "^4.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12"
+    "browser-sync": "^2.26.12",
+    "parcel-bundler": "^1.12.4"
   }
 }

@@ -7,11 +7,20 @@ Brian Torres-Gil
 
 ## Terminology
 
-- Workflow
-- Trigger
-- Job
-- Step
-- Action
+- **Workflow**:
+  Main configuration file
+
+- **Trigger**:
+  Something that starts a workflow
+
+- **Job**:
+  Blocks of steps in a workflow
+
+- **Step**:
+  Individual actions to take
+
+- **Action**:
+  Self-contained behavior used in a step
 
 ---
 

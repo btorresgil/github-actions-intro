@@ -52,6 +52,12 @@ Actions used:
 
 ---
 
+## Actions Panel
+
+<img data-src="images/actions-panel.png" />
+
+---
+
 ## Scope
 
 - A **Job** is an environment

@@ -7,20 +7,15 @@ Brian Torres-Gil
 
 ## Terminology
 
-- **Workflow**:
-  Main configuration file
+- **Workflow**: Main configuration file
 
-- **Trigger**:
-  Something that starts a workflow
+- **Trigger**: Something that starts a workflow
 
-- **Job**:
-  Blocks of steps in a workflow
+- **Job**: Blocks of steps in a workflow
 
-- **Step**:
-  Individual actions to take
+- **Step**: Individual actions to take
 
-- **Action**:
-  Self-contained behavior used in a step
+- **Action**: Self-contained behavior used in a step
 
 ---
 
@@ -43,7 +38,8 @@ jobs:
       - run: pytest
 ```
 
-Actions used: <a href="https://github.com/actions/checkout" target="_blank">actions/checkout@v2</a> -
+Actions used:
+<a href="https://github.com/actions/checkout" target="_blank">actions/checkout@v2</a> -
 <a href="https://github.com/actions/setup-python" target="_blank">actions/setup-python@2</a>
 
 <!-- .element style="font-size: 40%;" -->
@@ -52,7 +48,7 @@ Actions used: <a href="https://github.com/actions/checkout" target="_blank">acti
 
 ## Actions Marketplace
 
-<img data-src="/images/actions-marketplace-terraform.png" />
+<img data-src="images/actions-marketplace-terraform.png" />
 
 ---
 
